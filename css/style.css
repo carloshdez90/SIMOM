@@ -1,0 +1,221 @@
+/* * {
+	border: 1px dashed red;
+}*/
+
+@font-face { 
+  font-family: Droid Sans; 
+    src: url('../fonts/DroidSans-webfont.eot'); 
+    src: local("Droid Sans"), url('../fonts/DroidSans-webfont.woff'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+
+body {
+    background-color: #FFF;
+	  font: normal .80em 'Droid Sans', arial, sans-serif;
+	font-size: 16px;
+
+}
+
+h1 {
+	color: #336600;
+	background-color: #999B9B;
+	font-family: tahoma;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+}
+
+#principal{
+	background-color: #fff;
+	border:1px solid gray;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px #3399FF;
+	box-shadow: 0px 0px 5px #3399FF;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#botones {
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#hilera1, #hilera2, #hilera3 {
+	border:1px solid darkgray;
+	margin:20px;
+	text-align: center;
+	display: inline-block;
+	box-shadow: inset 0px 0px 5px #3399FF;
+	box-shadow: 0px 0px 5px #3399FF;
+
+}
+
+#sensores {
+	display: inline-block;
+}
+
+.sensor {
+	border:1px solid green;
+	margin:20px;
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+.hilera {
+	margin: 0 auto;
+	background-color: #999B9B;
+	color:#336600;
+	font-weight: bold;
+	font-weight: courier, verdana;
+	margin:0px 0 20px 0;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+.promedio {
+	margin: 0 auto;
+	background-color: #999B9B;
+	color:#336600;
+	font-weight: bold;
+	font-weight: courier, verdana;
+	margin:20px 0 0 0;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+.total {
+	margin: 0 auto;
+	background-color: #6B6C6C;
+	color:#FFF;
+	font-weight: bold;
+	font-weight: courier, verdana;
+	margin:20px 0 0 0;
+	padding: 10px;
+	display: block;
+	width:100%;
+	position: relative;
+	text-align: center;
+}
+
+#logo {
+
+	-webkit-transform:rotate(-30deg); /* Safari and Chrome */
+	float:left;
+	margin-left: 3%;
+}
+
+
+.login {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#credenciales {
+  display: inline-block;
+}
+
+
+form{
+	border: 1px solid white;
+	border-radius: 5px;
+	border:1px solid darkgray;
+	box-shadow: inset 0px 0px #3399FF;
+	box-shadow: 0px 0px 5px #3399FF;
+	padding: 50px 30px 50px 30px;
+}
+
+footer {
+	position:absolute; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	bottom:20px; /*Abajo deje un espacio de 0px*/
+	height:50px; /*alto del div*/
+	z-index:0;
+}
+
+.barra {
+	position:fixed; /*El div será ubicado con relación a la pantalla*/
+	left:0px; /*A la derecha deje un espacio de 0px*/
+	right:0px; /*A la izquierda deje un espacio de 0px*/
+	top:0px; /*Abajo deje un espacio de 0px*/
+	height:40px; /*alto del div*/
+	z-index:0;
+	background-color:  black;
+	color: white;
+}
+
+.fecha {
+	float:left;
+	display: inline-block;
+	margin:15px 0px 0 20px;
+	width: auto;
+	height: auto;
+}
+
+.cerrar {
+	float:right;
+	display: inline-block;
+	margin:15px 20px 0 0;
+	width: auto;
+	height: auto;
+}
+
+.cerrar a, .cerrar a:hover, .cerrar a:link, .cerrar a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+
+.loginV {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.pass  {
+  font-size: 20px;
+  margin: 20px 20px 20px 0;
+}
+
+.loginB, .temBoton {
+	font: normal .80em 'Droid Sans', arial, sans-serif;
+  	color: #FFF;
+  	font-weight: bold;
+	font-size: 16px;
+	background-color: #3399FF;
+	padding: 15px 20px 15px 20px;
+	border: 0px solid #000;
+	margin-top: 20px;
+}
+
+.loginB:hover, .temBoton:hover {
+	font: normal .80em 'Droid Sans', arial, sans-serif;
+  	color: #FFF;
+  	font-weight: bold;
+	font-size: 16px;
+	background-color:  darkgray;
+	padding: 15px 20px 15px 20px;
+	border: 0px solid #000;
+	margin-top: 20px;
+}
+
+ .temEntrada {
+ 	font-size: 16px;
+ }
+
